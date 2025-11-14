@@ -1359,7 +1359,7 @@
 /*----------------------breadcumb--------------------*/
 .breadcumb-section {
   padding: 137px 0px 135px 0px;
-  background-image: url(../../assets/images/page/hero.jpg);
+  background-image: url(../../assets/images/page/breakcrumb.jpg);
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -1594,6 +1594,30 @@
   line-height: 30px;
   color: #000000;
   margin-right: 15px;
+}
+
+.property-article {
+  max-width: 700px;
+}
+
+.entry-title a {
+  text-decoration: none;
+  color: #009245;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.property-list {
+  margin-top: 10px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.property-list li::before {
+  content: "•";
+  color: #f44336;
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 .comment-single {
@@ -6894,7 +6918,7 @@
   font-size: 12px;
 }
 .tour-listing .tour-listing-content .title-tour-list {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 30px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -7873,7 +7897,7 @@
   .clip-text {
     color: transparent;
     -webkit-background-clip: text;
-    background-image: url(../../assets/images/page/breakcrumb.jpg);
+    background-image: url(../../assets/images/page/clip-text.jpg);
     background-size: cover;
     background-position: center;
   }
